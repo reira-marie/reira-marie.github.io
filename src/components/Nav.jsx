@@ -5,8 +5,7 @@ const LINKS = [
   { href: "#projects", idx: "02", label: "projects" },
   { href: "#experience", idx: "03", label: "experience" },
   { href: "#education", idx: "04", label: "education" },
-  { href: "#blogs", idx: "05", label: "blogs" },
-  { href: "#resume", idx: "06", label: "resume" },
+  { href: "#resume", idx: "05", label: "resume" },
 ];
 
 export default function Nav({ theme, onToggleTheme }) {
