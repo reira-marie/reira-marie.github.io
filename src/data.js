@@ -4,40 +4,59 @@ export const ROLES = ["Software Engineer", "Full-Stack Developer", "Front-End De
 
 export const PROJECTS = [
   {
-    name: "Small Business Ordering SystemS",
+    name: "Small Business Ordering System",
     status: "active",
     type: "Solo Work",
-    desc: "Short description of what this project does and the problem it solves. Replace with your real project copy.",
-    link: "https://example.com",
+    desc: "A full-stack ordering and POS system for a local lechon manok business. Built with Laravel 11 (REST API, session auth, role-based access control, rate limiting, email verification via Brevo SMTP) and React 19 (SPA, React Router, custom hooks, localStorage cart). Features a customer ordering flow with real-time stock tracking, GCash/Maya/cash checkout, an admin dashboard for inventory and carousel management, and a walk-in staff POS — all backed by PostgreSQL on Supabase.",
+    link: "https://github.com/reira-marie/mama-thiks-lechon-manok",
   },
   {
-    name: "Project Two",
+    name: "My Page",
     status: "active",
-    type: "Team Project",
-    desc: "Short description of what this project does and the problem it solves. Replace with your real project copy.",
+    type: "Solo Work",
+    desc: "A personal notebook app built with React 19, Tailwind CSS v4, and Supabase — styled like a real spiral notebook — where you track movies, books, series, and anime, set time-locked goals, log focus sessions, and get AI-powered or randomized media picks via Gemini, TMDB, and Open Library.",
     link: "https://github.com/yourusername/project-two",
   },
   {
-    name: "Project Three",
+    name: "Gaia: Community-Driven Composting with IoT for Smart Food Waste Management",
     status: "inactive",
-    type: "Solo Work",
-    desc: "Short description of what this project does and the problem it solves. Replace with your real project copy.",
-    link: "https://github.com/yourusername/project-three",
+    type: "Team Project",
+    desc: "A full-stack web application built for San Ildefonso's Municipal Environment and Natural Resources Office (MENRO) to digitize and streamline community composting operations. The system features role-based portals for Super Admins, Municipal Admins, and Barangay Admins — each with scoped access to dashboards, bin tracking and requests, collection scheduling, group management, compost donation tracking, and report generation. Built with React and Firebase (Auth, Firestore, Storage), with audit trail logging, protected routes, and role-based access control across all portals.",
+    //link: "https://github.com/yourusername/project-three",
   },
-  {
-    name: "Project Four",
-    status: "inactive",
-    type: "Solo Work",
-    desc: "A fourth project shown only after clicking 'show more'.",
-    link: "https://github.com/yourusername/project-four",
-  },
+  // {
+  //   name: "Project Four",
+  //   status: "inactive",
+  //   type: "Solo Work",
+  //   desc: "A fourth project shown only after clicking 'show more'.",
+  //   link: "https://github.com/yourusername/project-four",
+  // },
 ];
-export const INITIAL_VISIBLE_PROJECTS = 3;
+export const INITIAL_VISIBLE_PROJECTS = 2;
 
 export const TECH_STACK = [
-  "Next.js", "React", "TypeScript", "Node.js", "Python",
-  "PostgreSQL", "MongoDB", "Tailwind CSS", "Docker", "Git",
+  {
+    category: "Languages",
+    items: ["JavaScript", "TypeScript", "PHP", "Java", "C#", "Dart", "Python", "HTML5", "CSS3", "SQL"],
+  },
+  {
+    category: "Frameworks & Libraries",
+    items: ["React", "Next.js", "React Native", "Flutter", "FlutterFlow", "Laravel", "Tailwind CSS", "Node.js"],
+  },
+  {
+    category: "Databases & Back-End",
+    items: ["PostgreSQL", "MongoDB", "Firestore", "Firebase", "Supabase", "REST APIs", "PayMongo API"],
+  },
+  {
+    category: "Cloud & DevOps",
+    items: ["AWS", "Microsoft Azure", "Docker", "Git", "GitHub", "CI/CD"],
+  },
+  {
+    category: "Tools & Other",
+    items: ["VS Code", "Kiro", "Figma", "OWASP ZAP", "IoT", "Arduino", "ESP32", "Agile", "SDLC", "Project Management"],
+  },
 ];
+
 
 export const EXPERIENCE = [
    
