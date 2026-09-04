@@ -15,7 +15,7 @@ export const PROJECTS = [
     status: "active",
     type: "Solo Work",
     desc: "A personal notebook app built with React 19, Tailwind CSS v4, and Supabase — styled like a real spiral notebook — where you track movies, books, series, and anime, set time-locked goals, log focus sessions, and get AI-powered or randomized media picks via Gemini, TMDB, and Open Library.",
-    link: "https://github.com/yourusername/project-two",
+    //link: "https://github.com/yourusername/project-two",
   },
   {
     name: "Gaia: Community-Driven Composting with IoT for Smart Food Waste Management",
@@ -69,13 +69,13 @@ export const EXPERIENCE = [
   {
     date: "November 2025 — February 2026",
     role: "IT Support",
-    org: "Pickup Coffee",
+    org: "StarBreaker Corp.",
     desc: "Kept store operations running by managing IT assets and troubleshooting hardware, software, and POS systems (Mosaic, Xilnex) across multiple locations. Led an inventory organization project that reduced stock discrepancies and maintained 100% uptime on internal systems.",
   },
   {
     date: "June 2026 — September 2026",
     role: "Amazon Account Assitant Manager",
-    org: "Filmlagune",
+    org: "Asia - Tel",
     desc: "Handled backend operations for Amazon product listings — resolving support tickets, managing flat file data, and ensuring account security and policy compliance.",
   }
 ];
