@@ -30,7 +30,6 @@ export default function Hero() {
             <div className="hero-links">
               <a className="pill" href={PROFILE.github} target="_blank" rel="noopener noreferrer">GitHub</a>
               <a className="pill" href={PROFILE.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a className="pill" href={PROFILE.x} target="_blank" rel="noopener noreferrer">X</a>
               <a className="pill" href={`mailto:${PROFILE.email}`}>Email</a>
             </div>
           </div>
