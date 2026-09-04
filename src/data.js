@@ -4,7 +4,7 @@ export const ROLES = ["Software Engineer", "Full-Stack Developer", "Front-End De
 
 export const PROJECTS = [
   {
-    name: "Project One",
+    name: "Small Business Ordering SystemS",
     status: "active",
     type: "Solo Work",
     desc: "Short description of what this project does and the problem it solves. Replace with your real project copy.",
@@ -42,9 +42,9 @@ export const TECH_STACK = [
 export const EXPERIENCE = [
    
   {
-    date: "March 2026 — June 2026",
+    date: "March 2026 — May 2026",
     role: "Software Engineer Intern",
-    org: "Company Name",
+    org: "Software Development Company",
     desc: "Worked across the SDLC on a 4-person engineering team, from manual testing and security checks to building internal tools. Ran QA testing that cut production defects by 40%, performed penetration testing with OWASP ZAP to catch security vulnerabilities, and built a WordPress job portal and a C# payroll system that digitized HR workflows for 50+ employees.",
   },
   {
@@ -56,7 +56,7 @@ export const EXPERIENCE = [
   {
     date: "June 2026 — September 2026",
     role: "Amazon Account Assitant Manager",
-    org: "Asia - Tel",
+    org: "Filmlagune",
     desc: "Handled backend operations for Amazon product listings — resolving support tickets, managing flat file data, and ensuring account security and policy compliance.",
   }
 ];
@@ -83,14 +83,14 @@ export const BLOGS = [
 ];
 
 export const PROFILE = {
-  name: "Leil Sanchez",
+  name: "Leila Sanchez",
   brand: "leila",
-  photo: "https://via.placeholder.com/200x200.png?text=Photo",
+  photo: "/photo.png",
   location: "Bulacan, Philippines",
   status: "Open to work",
   github: "https://github.com/reira-marie",
   //linkedin: "https://linkedin.com/in/yourusername",
-  x: "https://x.com/yourusername",
+  // x: "https://x.com/yourusername",
   email: "missleilasanchez@gmail.com",
   building: {
     title: "A multi-tenant e-commerce platform",
