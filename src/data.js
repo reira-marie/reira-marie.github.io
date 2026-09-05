@@ -91,6 +91,7 @@ export const EDUCATION = [
     date: "2022 — 2026",
     role: "B.S. in Information Technology",
     org: "National University",
+    desc: "Major in Mobile and Web Application",
   },
 ];
 
